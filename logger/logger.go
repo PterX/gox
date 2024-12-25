@@ -95,7 +95,6 @@ func init() {
 		FlushLogger()
 		fmt.Println("exit", s)
 		cancel()
-		os.Exit(0)
 	}()
 
 }
